@@ -80,7 +80,7 @@ figure below.
 We have evaluated our generated summary on BLEU score.
  </p>
  
-<b> BLEU Score Results on Test Dataset : BLEU = 34.21, 64.2/42.3/28.1/18.0 </b>
+<b> BLEU Score Results on Test Dataset : BLEU = 34.21, 64.2/42.3/28.1/18.0 </b> <br>
 <b> BLEU Score Results on Challenge Dataset : BLEU = 20.19, 52.3/28.9/16.3/9.2 </b>
  
 
