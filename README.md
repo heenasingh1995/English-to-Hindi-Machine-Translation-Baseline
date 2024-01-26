@@ -14,14 +14,14 @@ the associated images into account.</p>
 
 <p> Dataset Statistics are given below :<br></p>
 
-Dataset       	Segments 	English Words   	Hindi Words
--------       	---------	----------------	-------------
-Train         	    28930	          143164	       145448
-Dev           	      998	            4922	         4978
-Test          	     1595	            7853	         7852
-Challenge Test	     1400	            8186	         8639
--------       	---------	----------------	-------------
-Total         	    32923	          164125	       166917
+|Dataset       |	Segments 	|English Words   |	Hindi Words    |
+|-------       	|---------	|----------------|	-------------  |
+|Train         |	    28930	|          143164	|       145448   |
+|Dev           |	      998	|            4922	|         4978   |
+|Test          	|     1595	|            7853	 |        7852   |
+|Challenge Test	|     1400	|            8186	 |        8639   |
+|-------       |	---------	|----------------	|-------------   |
+|Total         	|    32923	 |         164125	 |      166917   |
 
 The word counts are approximate, prior to tokenization.
 
