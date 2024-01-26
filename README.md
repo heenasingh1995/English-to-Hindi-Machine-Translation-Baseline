@@ -62,7 +62,7 @@ target vocabulary size was 2625.
 In this experiment, a bi-directional LSTM is used as an Encoder which outputs a 512-
 dimensional hidden state with a dropout rate 0.3 and an LSTM Decoder which outputs a hidden
 state of 256-dimensions with a dropout rate 0.3. Each word is embedded in
-256 dimensions. Each model’s validation accuracy was checked for every 1000 epochs. A batch size of 256 and adagrad optimizer with a learning rate of 0.001 are used. The model was trained with early-stopping of 50 epochs. Best BLEU score of 37.3 was observed at epoch 117. 
+256 dimensions. A batch size of 256 and adagrad optimizer with a learning rate of 0.001 are used. The model was trained with early-stopping of 50 epochs. Best BLEU score of 37.3 was observed at epoch 117. 
 
 Model’s training loss, validation loss and validation BLEU score is shown by graph in
 figure below.
