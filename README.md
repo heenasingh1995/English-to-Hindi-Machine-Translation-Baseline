@@ -86,7 +86,7 @@ We have evaluated our generated summary on BLEU score.
 
  ## Translation Example
 
-<img src="https://github.com/heenasingh1995/English-to-Hindi-Machine-Translation-Baseline/assets/47137754/95cd3d0b-773b-40cd-a28d-af11dcd479c9.jpg" width="300" />
+<img src="https://github.com/heenasingh1995/English-to-Hindi-Machine-Translation-Baseline/assets/47137754/95cd3d0b-773b-40cd-a28d-af11dcd479c9.jpg" width="500" />
 
 
  
