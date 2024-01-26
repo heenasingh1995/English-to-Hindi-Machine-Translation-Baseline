@@ -20,7 +20,6 @@ the associated images into account.</p>
 |Dev           |	      998	|            4922	|         4978   |
 |Test          	|     1595	|            7853	 |        7852   |
 |Challenge Test	|     1400	|            8186	 |        8639   |
-|-------       |	---------	|----------------	|-------------   |
 |Total         	|    32923	 |         164125	 |      166917   |
 
 The word counts are approximate, prior to tokenization.
@@ -28,7 +27,9 @@ The word counts are approximate, prior to tokenization.
 # System Architecture
 Encoder Decoder with Attention mechanism model is used for Translation. 
 Model's architecture is shown in the figure below.
+
 <br>
+
 <img src = "https://github.com/heenasingh1995/English-to-Hindi-Machine-Translation-Baseline/assets/47137754/787f2477-a461-4405-bda5-b921a8cc5bd3.jpg" width = "600" />
 
 <br>
