@@ -70,11 +70,11 @@ figure below.
 </p>
 <br>
 
-<img src="https://github.com/heenasingh1995/English-to-Hindi-Machine-Translation-Baseline/assets/47137754/085600b3-4488-45a2-9d40-bac3df588412.jpg" width="300" />
+<img src="https://github.com/heenasingh1995/English-to-Hindi-Machine-Translation-Baseline/assets/47137754/085600b3-4488-45a2-9d40-bac3df588412.jpg" width="400" />
 
 <br>
 
-<img src="https://github.com/heenasingh1995/English-to-Hindi-Machine-Translation-Baseline/assets/47137754/0be70d35-3ef3-4bab-ba5b-37d82a36e9a9.jpg" width="300" />
+<img src="https://github.com/heenasingh1995/English-to-Hindi-Machine-Translation-Baseline/assets/47137754/0be70d35-3ef3-4bab-ba5b-37d82a36e9a9.jpg" width="400" />
 
 # Results & Analysis
 <p>
