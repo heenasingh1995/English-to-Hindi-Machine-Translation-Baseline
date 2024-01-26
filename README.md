@@ -47,7 +47,7 @@ The following steps have been done to pre-process the text data:<br>
 Source and target sentence's length analysis is shown below.<br>
 </p>
 
-<img src="https://github.com/heenasingh1995/English-to-Hindi-Machine-Translation-Baseline/assets/47137754/70b99f23-83f4-47d7-875a-da25bc95c6eb.jpg" width="300" />
+<img src="https://github.com/heenasingh1995/English-to-Hindi-Machine-Translation-Baseline/assets/47137754/70b99f23-83f4-47d7-875a-da25bc95c6eb.jpg" width="400" />
 
 ## Creating Vocabulary
 <p>
