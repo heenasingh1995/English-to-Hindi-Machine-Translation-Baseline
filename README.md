@@ -33,4 +33,48 @@ Model's architecture is shown in the figure below.
 <img src = "https://github.com/heenasingh1995/English-to-Hindi-Machine-Translation-Baseline/assets/47137754/787f2477-a461-4405-bda5-b921a8cc5bd3.jpg" width = "600" />
 
 <br>
+# Experiment
+
+## Data Pre-Processing
+<p>
+The following steps have been done to pre-process the text data:<br>
+1. Converted the text into lower case. <br>
+2. Contractions have been expanded. Ex. can’t to cannot.<br>
+3. Removed special characters and symbols like ’,?/+=)( and numeric values also.<br>
+4. Truncated the source sentences after 10 words and target sentences after 10 words.<br>
+5. Removed Hindi words from source sentences and English words from target sentences.<br>
+Source and target sentence's length analysis is shown below.<br>
+</p>
+
+<img src="https://github.com/heenasingh1995/English-to-Hindi-Machine-Translation-Baseline/assets/47137754/70b99f23-83f4-47d7-875a-da25bc95c6eb.jpg" width="500" />
+
+## Creating Vocabulary
+<p>
+For source vocabulary and target, only words with minimum of 3 occurrence
+were taken. The source vocabulary size was 2214 and the
+target vocabulary size was 2625. 
+</p>
+
+## Training
+
+<p>
+In this experiment, a bi-directional LSTM is used as an Encoder which outputs a 512-
+dimensional hidden state with a dropout rate 0.3 and an LSTM Decoder which outputs a hidden
+state of 256-dimensions with a dropout rate 0.3. Each word is embedded in
+256 dimensions. Each model’s validation accuracy was checked for every 1000 epochs. A batch size of 256 and adagrad optimizer with a learning rate of 0.001 are used. The model was trained with early-stopping of 50 epochs. Best BLEU score of 37.3 was observed at epoch 116. 
+
+Model’s training loss, validation loss and validation BLEU score is shown by graph in
+figure below.
+
+</p>
+<br>
+
+<img src="https://github.com/heenasingh1995/English-to-Hindi-Machine-Translation-Baseline/assets/47137754/085600b3-4488-45a2-9d40-bac3df588412.jpg" width="500" />
+
+<br>
+
+<img src="https://github.com/heenasingh1995/English-to-Hindi-Machine-Translation-Baseline/assets/47137754/0be70d35-3ef3-4bab-ba5b-37d82a36e9a9.jpg" width="500" />
+
+
+
 
