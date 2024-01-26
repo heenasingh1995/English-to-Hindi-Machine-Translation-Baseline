@@ -82,7 +82,11 @@ We have evaluated our generated summary on BLEU score.
  
 <b> BLEU Score Results on Test Dataset : BLEU = 34.21, 64.2/42.3/28.1/18.0 </b> <br>
 <b> BLEU Score Results on Challenge Dataset : BLEU = 20.19, 52.3/28.9/16.3/9.2 </b>
+
+ ## Translation Example
+
+<img src="https://github.com/heenasingh1995/English-to-Hindi-Machine-Translation-Baseline/assets/47137754/0be70d35-3ef3-4bab-ba5b-37d82a36e9a9.jpg" width="300" />
+
+
  
-
-
 
