@@ -25,7 +25,7 @@ the associated images into account.</p>
 The word counts are approximate, prior to tokenization.
 
 # System Architecture
-Encoder Decoder with Attention mechanism model is used for Translation. 
+Encoder Decoder with Attention mechanism model is used for Translation. Encoder-Decoder with attention model was introduced by Bahdanau for machine translation and is depicted in Figure below. Later it has been used by many researchers as a baseline system for their research work. In this encoder-decoder model, encoder compress input sequence W = (w1 , w2 , ......, wTx ) to a fixed-length vector. The decoder produces output at each timestamp. The encoder will produce hidden state  by taking word and previous hidden state  in every time step. The output of the last timestamp of the encoder is given to the decoder as initial input. At each timestamp t, the decoder will predict a target word by a soft search for the relevant part of the source sentence.
 Model's architecture is shown in the figure below.
 
 <br>
