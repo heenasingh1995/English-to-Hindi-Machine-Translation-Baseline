@@ -33,6 +33,7 @@ Model's architecture is shown in the figure below.
 <img src = "https://github.com/heenasingh1995/English-to-Hindi-Machine-Translation-Baseline/assets/47137754/787f2477-a461-4405-bda5-b921a8cc5bd3.jpg" width = "600" />
 
 <br>
+
 # Experiment
 
 ## Data Pre-Processing
