@@ -61,7 +61,7 @@ target vocabulary size was 2625.
 In this experiment, a bi-directional LSTM is used as an Encoder which outputs a 512-
 dimensional hidden state with a dropout rate 0.3 and an LSTM Decoder which outputs a hidden
 state of 256-dimensions with a dropout rate 0.3. Each word is embedded in
-256 dimensions. Each model’s validation accuracy was checked for every 1000 epochs. A batch size of 256 and adagrad optimizer with a learning rate of 0.001 are used. The model was trained with early-stopping of 50 epochs. Best BLEU score of 37.3 was observed at epoch 116. 
+256 dimensions. Each model’s validation accuracy was checked for every 1000 epochs. A batch size of 256 and adagrad optimizer with a learning rate of 0.001 are used. The model was trained with early-stopping of 50 epochs. Best BLEU score of 37.3 was observed at epoch 117. 
 
 Model’s training loss, validation loss and validation BLEU score is shown by graph in
 figure below.
@@ -75,6 +75,14 @@ figure below.
 
 <img src="https://github.com/heenasingh1995/English-to-Hindi-Machine-Translation-Baseline/assets/47137754/0be70d35-3ef3-4bab-ba5b-37d82a36e9a9.jpg" width="500" />
 
+# Results & Analysis
+<p>
+We have evaluated our generated summary on BLEU score.
+ </p>
+ 
+<b> BLEU Score Results on Test Dataset : BLEU = 34.21, 64.2/42.3/28.1/18.0 </b>
+<b> BLEU Score Results on Challenge Dataset : BLEU = 20.19, 52.3/28.9/16.3/9.2 </b>
+ 
 
 
 
